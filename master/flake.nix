@@ -11,7 +11,6 @@
   inputs.src-once-master.ref   = "master";
   inputs.src-once-master.owner = "~euantorano";
   inputs.src-once-master.repo  = "once.nim";
-  inputs.src-once-master.dir   = "";
   inputs.src-once-master.type  = "sourcehut";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
